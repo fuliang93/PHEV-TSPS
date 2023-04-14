@@ -16,3 +16,6 @@ phev_tsps_cha_vi.py : the solution method for the PHEV-TSPS-CS with valid inequa
 
 # Inst
 The instances with 8, 20, 30, 40, 50 customers are from 'Doppstadt C, Koberstein A, Vigo D, 2019 The hybrid electric vehicle—traveling salesman problem with time windows instances. Mendeley Dataset, URL doi:10.17632/9j3tt84hyx.1.', the instances with 60, 70, 80 are generated based on the former instances. Here, the elevation of each customer location is randomly generated between 0 and 100 meters.
+
+# Inst2
+These instances are similar to Inst but differ in terms of customer elevations. For the instances with the last number 2, customer elevations are randomly generated between 0 and 200 meters, while for the instances with the last number 3, customer elevations are randomly generated between 0 and 300 meters.
