@@ -1,0 +1,3 @@
+These instances are similar to Inst but differ in terms of customer elevations.
+
+For the instances with the last number 2, customer elevations are randomly generated between 0 and 200 meters, while for the instances with the last number 3, customer elevations are randomly generated between 0 and 300 meters.
