@@ -1,0 +1,11 @@
+All codes were implemented in Python using the Gurobi solver.
+
+para.py : parameters used for the model;
+
+phev_tsps.py : the solution method for the original PHEV-TSPS without valid inequalities;
+
+phev_tsps_vi.py : the solution method for the PHEV-TSPS with valid inequalities;
+
+phev_tspsd_vi.py : the solution method for the PHEV-TSPSD with valid inequalities;
+
+phev_tsps_cha_vi.py : the solution method for the PHEV-TSPS-CS with valid inequalities.
