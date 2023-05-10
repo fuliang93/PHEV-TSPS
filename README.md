@@ -1,5 +1,5 @@
 # PHEV-TSPS
-Codes and instances used for Paper 'Modeling and Solving the Traveling Salesman Problem for a Plug-in Hybrid Electric Vehicle Considering Speed Optimization"
+Codes and instances used for Paper 'Modeling and Solving the Traveling Salesman Problem with Speed Optimization for a Plug-in Hybrid Electric Vehicle"
 
 # Codes
 The codes used in numerical studies.
