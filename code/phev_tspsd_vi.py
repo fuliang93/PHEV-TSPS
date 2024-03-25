@@ -226,7 +226,7 @@ for file in files:
     sigmas = m.addVars([2,3],lb = -GRB.INFINITY,ub = GRB.INFINITY, name='sigma')
     m.addConstrs(sigmas[k] <= ys[0] - ys[n+1] - gp.quicksum(wr[i,j] for (i,j) in arc) + (1 - deltas[k])*EMaxSum for k in [2,3]) 
     m.addConstrs(sigmas[k] <= deltas[k]*EMaxSum for k in [2,3]) 
-    m.addConstr(obj >= ce*Phis[1] + (cb-mu*ce)*Phis[2]/(1-mu) + cf*Phis[3] + sigmas[2]*(ce-cb)/(1-mu) + sigmas[3]*(cb-cf)/(1-mu) + ce*gp.quicksum(wr[i,j] for (i,j) in arc)) 
+    m.addConstr(obj >= ce*Phis[1] + (cb-mu*ce)*Phis[2]/(1-mu) + cf*Phis[3] + sigmas[2]*(ce-cb)/(1-mu) + sigmas[3]*(cb-cf)/(mu) + ce*gp.quicksum(wr[i,j] for (i,j) in arc)) 
 # =============================================================================
     # Objective value
     m.setObjective(obj*10**6, GRB.MINIMIZE)
